@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+    <div class="flex items-center max-w-md mx-auto shadow rounded border-0 p-4">
+        <input type="text" id="default-search" class="flex-grow py-4" placeholder="Search by city name"
+            required />  
+        <i class="fas fa-search flex-grow-0 py-2 px-2" />
+        <button type="submit" id="sbtBtn"
+            class="focus:outline-none text-white bg-emerald-600 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Search</button>
+    </div>
+    <div id="day1"></div>
+    <div id="day2"></div>
+    <div id="day3"></div>
+    <div id="day4"></div>
+    <div id="day5"></div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
